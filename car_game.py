@@ -137,7 +137,7 @@ def settings_menu():
                 exit()
             if event.type == KEYDOWN:
                 if event.key == K_1:  # Augmenter la vitesse
-                    speed = min(10, speed + 1)  # Limiter la vitesse maximale à 10
+                    speed = min(20, speed + 1)  # Limiter la vitesse maximale à 20
                 elif event.key == K_2:  # Diminuer la vitesse
                     speed = max(1, speed - 1)  # Limiter la vitesse minimale à 1
                 elif event.key == K_3:  # Retour
